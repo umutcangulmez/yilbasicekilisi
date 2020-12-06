@@ -1,0 +1,40 @@
+
+<!-- form example -->
+
+<div class="row bg-light">
+	<div class="col">
+		<form method="post" action="{{url_for('index')}}" >
+			<div class="form-row">
+			  	<div class="form-group col-6">
+			  		<h3>Katılım Formu</h3>
+			  		<label for="inputName"> Adınız</label>
+			  		<input type="text" class="form-control" name="inputName" id="inputName" placeholder="Adınız" required>
+			  		<label for="inputEmail"> Email</label>
+			  		<input type="email" name="inputEmail" class="form-control" id="inputEmail" placeholder="Email" required>
+			  	</div>
+		 	</div>
+			<div class="row">
+		  		<div class="col-md-4 col-md-offset-4">
+		  			<button type="submit" class="btn btn-secondary btn-block">Gönder</button>
+		  		</div>
+		  	</div>
+		</form>
+	</div>
+</div>
+
+
+<!-- how to show flashed messages -->
+<div class="container" style="min-height:100% width:80%">
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    {% for message in messages %}
+	  <div class="alert alert-warning alert-dismissible" role="alert">
+	  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+		{{message}}
+	  </div>
+	{% endfor %}
+  {% endif %}
+{% endwith %}
+
+{% block body %}{% endblock %}
+</div>
