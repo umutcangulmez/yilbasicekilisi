@@ -1,7 +1,7 @@
 # Yilbasi Cekilisi - Turkish Secret Santa
 
 ### Usage
-- This project meant to be worked on heroku servers and I followed this tutorial to deploy into heroku. @https://dev.to/techparida/how-to-deploy-a-flask-app-on-heroku-heb
+- This project meant to be worked on heroku servers and I followed this tutorial to deploy into heroku. https://dev.to/techparida/how-to-deploy-a-flask-app-on-heroku-heb
 
 -  This project is my own implementation of Secret Santa. You can choose how many people will join into this game by NUMBER_OF_CANDIDATES variable in main.py. After all participants submit their name-email combinations this app will sent assigned pairs via email. 
 
@@ -11,7 +11,7 @@
 
 
 ### Kullanımı
-- Bu projeyi heroku serverlarında çalıştırmak üzere kodladım, server üzerinde çalıştırmak üzere bu tutoriali takip ettim . @https://dev.to/techparida/how-to-deploy-a-flask-app-on-heroku-heb
+- Bu projeyi heroku serverlarında çalıştırmak üzere kodladım, server üzerinde çalıştırmak üzere bu tutoriali takip ettim . https://dev.to/techparida/how-to-deploy-a-flask-app-on-heroku-heb
 
 - Bu bir yılbaşı hediye çekilişi yapma programıdır. NUMBER_OF_CANDIDATES değişkeniyle kaç kişi katılacağınızı belirleyebilirsiniz. Tüm katılımcılar isim ve email kombinasyonlarını girdikten sonra kendilerine kime hediye alacakları maili gönderiliyor.
 
